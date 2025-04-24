@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+        <h1>Loja Senac</h1>
+        <button id="carrinhoBtn">Minha Cesta (0)</button>
+    </header>
+
+    <div class="carrinho-modal">
+        <div class="carrinho-conteudo">
+            <h2 id="btn-cestaa">Minha Cesta</h2>
+            <div id="lista-carrinho"></div>
+            <div class="total">
+                <p>Total: R$ <span id="total-compra">0.00</span></p>
+            </div>
+            <button id="fecharCarrinho">Continuar</button>
+        </div>
+    </div>
+
+
+    <div id="container-produtos"></div>
+    <script src="produtos.js"></script>
+    <script src="app.js"></script>
+    <script src="carrinho.js"></script>
+</body>
+</html>
